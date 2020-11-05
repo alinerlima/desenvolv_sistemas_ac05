@@ -1,0 +1,34 @@
+body.formatacao1{
+    background: #e4e4e7;
+}
+
+h1.saopaulo{
+    color:#de202c;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1.preto{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1.palmeiras{
+    color:#1e5b3c;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1.titulo{
+    text-align: center;
+}
+
+th{
+    line-height: 80%;
+
+}
+
+p.alinhamento{
+    text-align: justify;
+}
