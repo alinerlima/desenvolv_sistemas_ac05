@@ -3,25 +3,55 @@ body.formatacao1{
 }
 
 h1.saopaulo{
-    color:#de202c;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color: #de202c;
+    font-family: 'Bahnschrift';
     text-align: center;
+    padding: 15px
+
 }
 
 h1.preto{
-    color:black;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color: #000000;
+    font-family: 'Bahnschrift';
     text-align: center;
+    padding: 15px
 }
 
 h1.palmeiras{
-    color:#1e5b3c;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color: #1e5b3c;
+    font-family: 'Bahnschrift';
     text-align: center;
+    padding: 15px
 }
 
-h1.titulo{
+h1.titulo1{
+    font-family: 'Bahnschrift';
     text-align: center;
+    background-color: #2cb63ad7;
+    color: white;
+    margin-top: 10px;
+    padding: 15px
+    
+}
+
+h2.titulo2{
+    font-family: 'Bahnschrift';
+    text-align: justify;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+h3.titulo3{
+    font-family: 'Bahnschrift';
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
 }
 
 th{
@@ -30,5 +60,43 @@ th{
 }
 
 p.alinhamento{
+    font-family: 'Bahnschrift';
     text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
 }
+
+td.img_time{
+    padding-left: 450%;    
+}
+
+table.tabela{
+    padding-left: 10%; 
+}
+
+button.botao{
+    background-color: #2cb63ad7;
+    color: white;
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family: 'Bahnschrift';
+    font-weight:bold;
+    font-size:13px;
+    padding:7px 10px;
+    text-decoration:none;
+    width: 100%;
+}
+
+a.fonte_link{
+    font-family: 'Bahnschrift';
+    text-align: justify;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
