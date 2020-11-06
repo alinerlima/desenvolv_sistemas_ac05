@@ -100,3 +100,15 @@ a.fonte_link{
     margin-bottom: 10px;
 }
 
+th.time{
+    width:110px;
+    text-align: center;
+}
+
+img.logotime{
+    width:25px;
+    height:25px;
+    vertical-align:middle;
+    margin-right: 5px;
+}
+

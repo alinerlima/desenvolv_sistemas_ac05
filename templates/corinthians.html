@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../static/css_main.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css_main.css') }}"/>
     <title>Corinthians</title>
 </head>
 <body class='formatacao1'>
     <h1 class="preto">História do Corinthians</h1>
 <table>
     <tr>
-        <td class="img_time"><a href="detalhe_de_curso.html"><img width="125px" height="125px" src="../images/corinthians.png"/></a></td>
+        <td class="img_time"><img width="125px" height="125px" src="{{ url_for('static', filename='corinthians.png') }}"/></a></td>
     </tr>
 </table>
     <p class="alinhamento">O Sport Club Corinthians Paulista (mais conhecido como Corinthians, e pelos apelidos de "Timão" e "Coringão") 
@@ -24,6 +24,6 @@
     Rio-São Paulo (recordista, ao lado de Palmeiras e Santos), duas Taça dos Campeões Estaduais Rio–São Paulo, 30 Campeonatos Paulistas 
     (atual recordista) e uma Copa Bandeirantes (único vencedor).</p><br>
 
-    <a href='index.html'><button class="botao">Índice</button></a>
+    <a href='home'><button class="botao">Voltar para home</button></a>
 </body>
 </html>

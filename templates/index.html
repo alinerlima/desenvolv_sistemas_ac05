@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Campeonato Paulista</title>
-    <link rel="stylesheet" type="text/css" href="../static/css_main.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css_main.css') }}"/>
 </head>
 <body class='formatacao1'>
     <h1 class="titulo1">CAMPEONATO PAULISTA</h1>
@@ -77,25 +77,25 @@
         <table class="tabela"><br><br>
             <h2 class="titulo2">Conheça a História do seu Clube</h2><br>
             <tr>
-                <td><a href="saopaulo"><img width="125px" height="125px" src="../images/saopaulo.png"/></a></td>
+                <td><a href="saopaulo"><img width="125px" height="125px" src="{{ url_for('static', filename='saopaulo.png') }}"/></a></td>
                 <td>
                     <a class="fonte_link" href="saopaulo"><h1>São Paulo</h1></a>
                 </td>
             </tr>            
             <tr>
-                <td><a href="palmeiras"><img width="125px" height="125px" src="../images/palmeiras.png"/></a></td>
+                <td><a href="palmeiras"><img width="125px" height="125px" src="{{ url_for('static', filename='palmeiras.png') }}"/></a></td>
                 <td>
                     <a class="fonte_link" href="palmeiras"><h1>Palmeiras</h1></a>
                 </td>
             </tr>
             <tr>
-                <td><a href="corinthians"><img width="125px" height="125px" src="../images/corinthians.png"/></a></td>
+                <td><a href="corinthians"><img width="125px" height="125px" src="{{ url_for('static', filename='corinthians.png') }}"/></a></td>
                 <td>
                     <a class="fonte_link" href="corinthians"><h1>Corinthians</h1></a>
                 </td>
             </tr>
             <tr>
-                <td><a href="santos"><img width="125px" height="125px" src="../images/santos.png"/></a></td>
+                <td><a href="santos"><img width="125px" height="125px" src="{{ url_for('static', filename='santos.png') }}"/></a></td>
                 <td>
                     <a class="fonte_link" href="santos"><h1>Santos</h1></a>
                 </td>

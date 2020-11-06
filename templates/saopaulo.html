@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../static/css_main.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css_main.css') }}"/>
     <title>São Paulo</title>
 </head>
 <body class='formatacao1'>
     <h1 class="saopaulo">História do São Paulo</h1>
 <table>
     <tr>
-        <td class="img_time"><a href="detalhe_de_curso.html"><img width="125px" height="125px" src="../images/saopaulo.png"/></a></td>
+        <td class="img_time"><img width="125px" height="125px" src="{{ url_for('static', filename='saopaulo.png') }}"/></a></td>
     </tr>
 </table>
     <p class="alinhamento">São Paulo Futebol Clube (conhecido apenas por São Paulo e cujo acrônimo é SPFC) é uma associação esportiva 
@@ -26,6 +26,6 @@
     onde seu atleta Adhemar Ferreira da Silva foi o primeiro bicampeão olímpico do país e quebrou recordes mundiais, 
     os quais são responsáveis pelas duas estrelas douradas no escudo do clube.</p><br>
     
-    <a href='index.html'><button class="botao">Índice</button></a>
+    <a href='home'><button class="botao">Voltar para home</button></a>
 </body>
 </html>
