@@ -1,5 +1,5 @@
 body.formatacao1{
-    background: #e4e4e7;
+    background: #F9F9F9;
 }
 
 h1.saopaulo{
@@ -67,6 +67,14 @@ p.alinhamento{
     margin-bottom: 10px;
 }
 
+ul{
+    font-family: 'Bahnschrift';
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
 td.img_time{
     padding-left: 450%;    
 }
@@ -100,9 +108,8 @@ a.fonte_link{
     margin-bottom: 10px;
 }
 
-th.time{
-    width:110px;
-    text-align: center;
+p.ptime{
+    margin-left: 5px;
 }
 
 img.logotime{
@@ -110,5 +117,46 @@ img.logotime{
     height:25px;
     vertical-align:middle;
     margin-right: 5px;
+    margin-left: 15px;
 }
 
+table.tclassificacao{
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-color: #D3D3D3;
+    border-bottom: 2px solid #C5C5C4;
+    border-top: 2px solid #C5C5C4;
+    text-align: center;
+    margin:auto;
+}
+
+td.time{
+    width:150px;
+    text-align: left;
+    border-bottom: 1px solid #C5C5C4;
+}
+
+td.pontuacao{
+    width:50px; 
+    background-color: #FFD700; 
+    border-color: #FFD700;  
+}
+
+th.campeao{
+   background-color: #5FF84D;
+   height: 60px;
+}
+
+th.classificacao{
+    background-color: #FAB158;
+    border-color: #FAB158;
+    height: 30px;
+}
+
+th.header{
+    height: 30px;
+}
+
+tr.bpont{
+    border-bottom: 1px solid #C5C5C4;
+}
