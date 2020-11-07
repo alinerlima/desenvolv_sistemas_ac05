@@ -170,7 +170,7 @@ td.histtime:hover{
     background-color: #5596FB;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 10px solid #e62c2c;
+    border: 1px solid #e62c2c;
 }
 
 img.imagemtime{
