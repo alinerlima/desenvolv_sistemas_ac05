@@ -26,62 +26,67 @@
         <h1 class="tituloindex">Campeonato Paulista 2020</h1>
 
         <table class="tclassificacao">
-            <tr>
-                <th colspan="6" class="classificacao">CLASSIFICAÇÃO</th>
-            </tr>
-            <tr>
-                <td class="pontuacao"></td>
-                <td class="pontuacao"><strong>P</strong></td> 
-                <td class="pontuacao"><strong>J</strong></td>
-                <td class="pontuacao"><strong>V</strong></td>
-                <td class="pontuacao"><strong>E</strong></td>
-                <td class="pontuacao"><strong>D</strong></td>
-            </tr>
-            <tr class="bpont">
-                <td class="time" >
-                    <p class="ptime">1º<img src="{{ url_for('static', filename='images/saopaulo.png') }}" class="logotime">São paulo</p>
-                </td>
-                <td>35</td>
-                <td>19</td>
-                <td>10</td>
-                <td>5</td>
-                <td>4</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th colspan="6" class="classificacao">CLASSIFICAÇÃO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="pontuacao"></td>
+                    <td class="pontuacao"><strong>P</strong></td> 
+                    <td class="pontuacao"><strong>J</strong></td>
+                    <td class="pontuacao"><strong>V</strong></td>
+                    <td class="pontuacao"><strong>E</strong></td>
+                    <td class="pontuacao"><strong>D</strong></td>
+                </tr>
+                <tr class="bpont">
+                    <td class="time" >
+                        <p class="ptime">1º<img src="{{ url_for('static', filename='images/saopaulo.png') }}" class="logotime">São paulo</p>
+                    </td>
+                    <td>35</td>
+                    <td>19</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
 
-            <tr class="bpont">
-                <td class="time">
-                    <p class="ptime">2º<img src="{{ url_for('static', filename='images/palmeiras.png') }}" class="logotime">Palmeiras</p>
-                </td>
-                <td>32</td>
-                <td>18</td>
-                <td>10</td>
-                <td>2</td>
-                <td>6</td>
-            </tr>
-            <tr class="bpont">
-                <td class="time">
-                    <p class="ptime">3º<img src="{{ url_for('static', filename='images/corinthians.png') }}" class="logotime">Corinthians</p>
-                </td>
-                <td>32</td>
-                <td>19</td>
-                <td>9</td>
-                <td>5</td>
-                <td>5</td>
-            </tr>
-            <tr class="bpont">
-                <td class="time">
-                    <p class="ptime">4º<img src="{{ url_for('static', filename='images/santos.png') }}" class="logotime">Santos</p>
-                </td>
-                <td>30</td>
-                <td>19</td>
-                <td>8</td>
-                <td>6</td>
-                <td>5</td>
-            </tr>
-
-            <tr>
-                <th colspan="10" class="campeao"><strong>CAMPEÃO PAULISTA 2020<br><br>SÃO PAULO</strong></th>
-            </tr>
+                <tr class="bpont">
+                    <td class="time">
+                        <p class="ptime">2º<img src="{{ url_for('static', filename='images/palmeiras.png') }}" class="logotime">Palmeiras</p>
+                    </td>
+                    <td>32</td>
+                    <td>18</td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>6</td>
+                </tr>
+                <tr class="bpont">
+                    <td class="time">
+                        <p class="ptime">3º<img src="{{ url_for('static', filename='images/corinthians.png') }}" class="logotime">Corinthians</p>
+                    </td>
+                    <td>32</td>
+                    <td>19</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+                <tr class="bpont">
+                    <td class="time">
+                        <p class="ptime">4º<img src="{{ url_for('static', filename='images/santos.png') }}" class="logotime">Santos</p>
+                    </td>
+                    <td>30</td>
+                    <td>19</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="10" class="campeao"><strong>CAMPEÃO PAULISTA 2020<br><br>SÃO PAULO</strong></th>
+                </tr>
+            </tfoot>
         </table>
 
         <h1 class="tituloindex">Conheça a História do seu Clube</h1>
