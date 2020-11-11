@@ -74,10 +74,40 @@ td.img_time{
     padding-left: 450%;    
 }
 
-button.botao{
-    background-color: #2cb63ad7;
+button.botao_corinthians{
+    background-color: #414141;
     color: white;
-    border:1px solid #25692A;
+    border:1px solid #000000;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family: 'Bahnschrift';
+    font-weight:bold;
+    font-size:13px;
+    padding:7px 10px;
+    text-decoration:none;
+    width: 100%;
+}
+
+button.botao_palmeiras{
+    background-color: #1E5B3C;
+    color: white;
+    border:1px solid #D1D1D1;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family: 'Bahnschrift';
+    font-weight:bold;
+    font-size:13px;
+    padding:7px 10px;
+    text-decoration:none;
+    width: 100%;
+}
+
+button.botao_saopaulo{
+    background-color: #DE202C;
+    color: white;
+    border:1px solid #D1D1D1;
     border-radius:4px;
     display:inline-block;
     cursor:pointer;
