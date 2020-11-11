@@ -157,20 +157,78 @@ table.tabela{
     border-spacing: 20px;
 }
 
-td.histtime{
+.histtime{
     background-color: #FFFFFF;
-    width:180px;
+    width:250px;
     text-align: center;
     margin-top: 3;
-    border: 1px outset #d1d1d1;
+    border: 1px outset #D1D1D1;
     border-radius: 10%;    
 }
 
-td.histtime:hover{
-    background-color: #5596FB;
+.histime_saopaulo{
+    width: 250px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_saopaulo:hover{
+    background-color: #DE202C;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 1px solid #e62c2c;
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_palmeiras{
+    width: 250px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_palmeiras:hover{
+    background-color: #1E5B3C;
+    transform: scale(1.05);
+    filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_corinthians{
+    width: 250px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_corinthians:hover{
+    background-color: #414141;
+    transform: scale(1.05);
+    filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
+    border: 1px solid #000000;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+
+.histime_santos{
+    width: 250px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.histime_santos:hover{
+    background-color: #414141;
+    transform: scale(1.05);
+    filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
+    border: 1px solid #000000;
+    border-radius: 10%;
+    text-align: center;
 }
 
 img.imagemtime{
