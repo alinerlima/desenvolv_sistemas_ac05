@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Listar Socios</title>
+    <link rel="shortcut icon" href="./../static/images/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="./../static/css_main.css"/>
+</head>
+<body class="formatacao1">
+    <h1 class="titulo1">Sócios</h1>
+    
+    <table class="socios">
+        <tr class="header">
+            <td class="hnome">Nome</td>
+            <td class="hsexo">Sexo</td>
+            <td class="hemail">E-mail</td>
+            <td class="htelefone">Telefone</td>
+            <td class="htime">Time</td>
+            <td class="hnews">Newsletter</td>
+        </tr>
+      {% for torcedor in torcedores%}
+        <tr class="dados">
+            <td class="tdsocios">{{ torcedor.nome }}</td>
+            <td class="tdsocios">{{ torcedor.sexo }}</td>
+            <td class="tdsocios">{{ torcedor.email }}</td>
+            <td class="tdsocios">{{ torcedor.telefone }}</td>
+            <td class="tdsocios">{{ torcedor.time }}</td>
+            <td class="tdsocios">{{ torcedor.newsletter }}</td>
+        </tr>
+      {%endfor%}               
+    </table>
+    <br/><br/>
+    <a href='home'><button class="vbtnhome">Voltar para home</button></a>
+</body>
+</html>

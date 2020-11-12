@@ -6,17 +6,37 @@
     <link rel="shortcut icon" href="./../static/images/favicon.svg" />
     <link rel="stylesheet" type="text/css" href="./../static/css_main.css"/>
 </head>
-<body class='formatacao1'>
+<body class='formatacao1'>    
     <h1 class="titulo1">Cadastro de novos sócios</h1>
-    <form action="cadastro" method="POST">
-        <label>Digite seu nome: </label><br>
-        <input type="text" maxlength="50" name="nome"><br>
-        <label>Digite seu e-mail: </label><br>
-        <input type="text" maxlength="50" name="email"><br><br>
-        <label>Digite seu time: </label><br>
-        <input type="text" maxlength="50" name="time"><br><br><br>
-        <input type="submit" value="Salvar">
-        
+    <div class="cadastro">
+    <form action="cadastrar" method="POST">
+    <fieldset class="formcad">
+        <label>Nome </label><br/>
+        <input type="text" maxlength="50" name="nome" required class="input_select"><br/><br/>
+        <label>Sexo </label><br/><br/>
+        <input type="radio" name="sexo" value="f">
+        <label>Feminino</label>
+        <input type="radio" name="sexo" value="m">
+        <label>Masculino</label><br/><br/>
+        <label>E-mail </label><br>
+        <input type="text" maxlength="50" name="email" required class="input_select"><br/><br/>
+        <label>Telefone </label><br>
+        <input type="text" maxlength="15" name="telefone" required class="input_select"><br/><br/>
+        <label>Escolha o seu Time </label><br>
+        <select name="time" class="input_select">
+            <option value="valorpadrao" selected disabled>--</option>
+            <option value="sao_paulo">São Paulo</option> 
+            <option value="palmeiras">Palmeiras</option>
+            <option value="corinthians">Corinthians</option> 
+            <option value="santos">Santos</option>
+        </select><br/><br/>
+        <input type="checkbox" name="newsletter" checked value="true">
+        <label>Gostaria de receber nossa Newsletter</label>
+        </fieldset>
+        <div class="divbtncadastrar"><input type="submit" value="Cadastrar" class="btncadastrar"></div>
     </form>
+    </div>
+    <br/><br/>
+    <a href='home'><button class="vbtnhome">Voltar para home</button></a>
 </body>
 </html>

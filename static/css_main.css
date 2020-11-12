@@ -142,13 +142,9 @@ img.logotime{
 }
 
 table.tclassificacao{
-    background-color: #FFFFFF;
-    border-collapse: collapse;
-    border-color: #D3D3D3;
-    border-bottom: 2px solid #C5C5C4;
-    border-top: 2px solid #C5C5C4;
     text-align: center;
     margin:auto;
+    border-collapse: collapse;
 }
 
 td.time{
@@ -159,19 +155,24 @@ td.time{
 
 td.pontuacao{
     width:50px; 
-    background-color: #FFD700; 
-    border-color: #FFD700;  
+    background-color: #d4bba2; 
+    border-color: #d4bba2;  
+    color: #693D14;
 }
 
 th.campeao{
-   background-color: #5FF84D;
-   height: 60px;
+    background-image: linear-gradient(to right, #DE202C,#000,#000);
+    border-radius: 0px 0px 15px 15px;
+    color: #FFF;
+    height: 60px;
 }
 
 th.classificacao{
-    background-color: #FAB158;
-    border-color: #FAB158;
+    background-color: #693D14;
+    border-color: #693D14;
     height: 30px;
+    color: #d4bba2;
+    border-radius: 15px 15px 0px 0px;
 }
 
 th.header{
@@ -207,7 +208,7 @@ table.tabela{
     background-color: #DE202C;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 3px solid #D1D1D1;
+    border: 3px solid #DE202C;
     border-radius: 10%;
     text-align: center;
 }
@@ -223,7 +224,7 @@ table.tabela{
     background-color: #1E5B3C;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 3px solid #D1D1D1;
+    border: 3px solid #1E5B3C;
     border-radius: 10%;
     text-align: center;
 }
@@ -239,7 +240,7 @@ table.tabela{
     background-color: #414141;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 3px solid #D1D1D1;
+    border: 3px solid #414141;
     border-radius: 10%;
     text-align: center;
     
@@ -256,7 +257,7 @@ table.tabela{
     background-color: #414141;
     transform: scale(1.05);
     filter: drop-shadow(10px 5px 2.5px rgba(0,0,0,.5));
-    border: 3px solid #D1D1D1;
+    border: 3px solid #414141;
     border-radius: 10%;
     text-align: center;
 }
@@ -267,4 +268,158 @@ img.imagemtime{
 
 h1{
     text-align: center;
+}
+
+div.cadastro{
+    background-color: #FFFFFF;
+    width:600px;
+    height:600px;
+    border: 1px solid #8f8f8f;
+    border-radius: 5%;
+    margin: auto;
+    align-items: center;
+    font-family: 'Bahnschrift';
+    color: #414141;
+}
+
+fieldset.formcad{
+    margin-left: 15px;
+    margin-top: 30px;
+    border: none;
+}
+
+.divbtncadastrar{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btncadastrar{
+    background-color: #2CB63AD7;
+    border: 1px #2CB63AD7;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+}
+
+.input_select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+    font-size: 18px;
+    
+}
+
+table.socios{
+    margin:auto;
+    text-align: center;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+}
+
+.tdsocios{
+    font-family: 'Bahnschrift';
+    font-size: 18px;
+    color: #414141;
+}
+
+.header{
+    font-family: 'Bahnschrift';
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #0D3611;
+}
+
+.hnome{
+    width: 150px;
+    height: 30px;
+}
+
+.hsexo{
+    width: 100px;
+    height: 30px;
+}
+
+.hemail{
+    width: 300px;
+    height: 30px;
+}
+
+.htelefone{
+    width: 150px;
+    height: 30px;
+}
+
+.htime{
+    width: 150px;
+    height: 30px;
+}
+
+.hnews{
+    width: 150px;
+    height: 30px;
+}
+
+tr.dados:nth-child(even){
+    background: #FFFFFF
+}
+
+tr.dados:nth-child(odd){
+    background: #EEEEEE
+}
+
+.vbtnhome{
+    background-color: #2CB63AD7;
+    color: white;
+    border:1px solid #D1D1D1;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family: 'Bahnschrift';
+    font-weight:bold;
+    font-size:13px;
+    padding:7px 10px;
+    text-decoration:none;
+    width: 100%;
+}
+
+.imgok{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.divbtn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    width:45%;
+    background-color: #2CB63AD7;
+    border: 1px #2CB63AD7;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+}
+
+.divbtnhome{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnhome{
+    width:45%;
+    background-color: #0D3611;
+    border: 1px #0D3611;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-family: 'Bahnschrift';
 }
